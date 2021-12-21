@@ -1,0 +1,203 @@
+h1.author {
+    display: none;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    color: #201B2F;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+div, p, form, input, button, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    width: 1175px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    height: 750px;
+    background-color: #7287AE;
+}
+
+img.logo {
+    width: 300px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    background-color: #fff;
+    color: #7287AE;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 50px;
+}
+
+.main {
+    width: 645px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    margin-top: 130px;
+}
+
+.main h1 {
+    font-size: 72pt;
+}
+
+.main .description {
+    width: 600px;
+}
+
+.main p {
+    font-size: 28px;
+}
+
+main .popular-menu {
+    background-color: #E3ECC2;
+    padding: 110px 0;
+}
+
+main .popular-menu h3 {
+    text-align: center;
+    color: #7287AE;
+    font-size: 45px;
+    margin-bottom: 110px;
+}
+
+.popular-menu .dish-card {
+    width: 330px;
+    margin-bottom: 75px;
+}
+
+.popular-menu .dish-card img {
+    width: 330px;
+}
+
+.dish-info {
+    padding: 20px;
+    background-color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+.dish-info:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.dish-info .price {
+    font-weight: 700;
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    font-weight: 700;
+    letter-spacing: 5px;
+    width: 330px;
+    background: #7287AE;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 45px;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background: #4f6da3;
+    transition: all 0.5s ease;
+}
+
+.popular-menu .btn {
+    margin: 0 auto;
+}
+
+.discount img {
+    width: 760px;
+}
+
+.promo img {
+    width: 760px;
+}
+
+
+.wrapper-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.wrapper-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.discount-description {
+    padding-left: 60px;
+    margin-top: 200px;
+    width: 560px;
+}
+
+.discount-description p {
+    font-size: 24px;
+}
+
+.discount-description h2 {
+    font-size: 48px;
+    width: 400px;
+}
+
+.promo-description {
+    padding-right: 40px;
+    margin-top: 200px;
+    width: 560px;
+}
+
+.promo-description p {
+    font-size: 24px;
+}
+
+.promo-description h2 {
+    font-size: 48px;
+    width: 450px;
+}
+
